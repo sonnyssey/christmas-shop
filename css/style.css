@@ -1,0 +1,10 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: rgba(24, 28, 41, 1);
+    background-color: rgba(255, 70, 70, 1);
+}
+
+a {
+    text-decoration: none;
+}
