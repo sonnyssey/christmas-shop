@@ -8,3 +8,92 @@ body {
 a {
     text-decoration: none;
 }
+
+.page-container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* styles for header main-page */
+
+.main-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 0 82px;
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+.page-header-logo {
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.page-header-logo:active {
+    color: rgba(24, 28, 41, 1);
+}
+
+.header-logo-icon {
+    margin-right: 8px;
+}
+
+.header-logo-text {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 5%;
+    text-transform: uppercase;
+}
+
+.header-navigation {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 5%;
+    text-transform: uppercase;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 40px;
+}
+
+.nav-link:hover {
+    color: rgba(255, 70, 70, 1);
+    background-color: rgba(255, 70, 70, 0.1);
+    border-radius: 12px;
+}
+
+.nav-link:active {
+    color: rgba(255, 70, 70, 1);
+    background-color: rgba(255, 70, 70, 0.2);
+}
+
+.nav-item {
+    margin-right: 8px;
+}
+
+/* styles for main-page-content */
+.main-page-content {}
+
+/* styles for main-hero-section */
+
+.main-hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 524px;
+    background-image: url(../img/bg-ball.png), url(../img/bg-snow.png);
+}
